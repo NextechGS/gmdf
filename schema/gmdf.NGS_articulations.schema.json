@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "AGI_articulations glTF extension, adapted for gmdf",
+    "type": "object",
+    "description": "Object that defines metadata for applying external analysis or effects to a model.",
+    "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "properties": {
+        "attachPoints": {
+            "type": "array",
+            "description": "An array of node names of attach points.",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1
+        },
+        "articulations": {
+            "type": "array",
+            "description": "An array of articulations.",
+            "items": {
+                "$ref": "gmdf.articulation.schema.json"
+            },
+            "minItems": 1
+        },
+        "extensions": { },
+        "extras": { }
+    }
+}
