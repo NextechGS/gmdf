@@ -4,7 +4,7 @@ The glTF Metadata File (GMDF) for Systems Tool Kit (STK)
 
 ## Contributors
 
-* Mark Malewski, NextechGS / Nextech Labs, NFP
+* Mark Malewski, Nextech Labs, NFP / NextechGS
 * Greg Beatty, Analytical Graphics, Inc.
 * Ed Mackey, Analytical Graphics, Inc.
 * Alex Wood, Analytical Graphics, Inc.
