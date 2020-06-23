@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema",
     "title": "AGI's glTF Metadata File (.gmdf)",
     "type": "object",
-    "description": "A glTF Metadata File (or gmdf) lives in the same folder as the main glTF or glb file, with the same base filename.  It allows the glTF to be regenerated without destrying the metadata.",
+    "description": "A glTF Metadata File (or gmdf) lives in the same folder as the main glTF or glb file, with the same base filename.  It allows the glTF to be regenerated without destroying the metadata.",
     "properties": {
         "AGI_articulations": {
             "$ref": "gmdf.AGI_articulations.schema.json",
