@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "AGI_articulations glTF extension, adapted for gmdf",
+    "title": "NGS_articulations glTF extension, adapted for gmdf",
     "type": "object",
     "description": "Object that defines metadata for applying external analysis or effects to a model.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
